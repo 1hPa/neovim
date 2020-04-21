@@ -1,0 +1,37 @@
+# dein.vim---------------
+
+[[plugins]]
+repo = 'Shougo/dein.vim'
+
+# airline----------------
+
+[[plugins]]
+repo = 'itchyny/lightline.vim'
+depends = ['itchyny/lightline.vim']
+hook_add = 'source $XDG_CONFIG_HOME/nvim/plugins/script/airline.vim'
+
+#jedi-vim----------------
+
+[[plugins]]
+repo = 'davidhalter/jedi-vim'
+on_ft = 'python'
+
+#defx.nvim---------------
+
+[[plugins]]
+repo = 'Shougo/defx.nvim'
+on_cmd = 'Defx'
+depends = ['defx-icons', 'defx-git']
+hook_add = 'source $XDG_CONFIG_HOME/nvim/plugins/script/defx_key.vim'
+
+
+#defx-icon.nvim
+
+[[plugins]]
+repo = 'kristijanhusak/defx-icons'
+
+
+#ryanoasis/vim-devicons---
+
+[[plugins]]
+repo = 'ryanoasis/vim-devicons'
