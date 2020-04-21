@@ -1,3 +1,8 @@
+"文字コード関係
+set encoding=utf-8
+set fileencoding=utf-8
+set fileencodings=ucs-bom,utf-8,cp932,iso-2022-jp,euc-jisx0213,euc-jp,guess
+
 "'<'や'>'でインデントするときに'shiftwidth'の倍数に丸める
 set shiftround
 
