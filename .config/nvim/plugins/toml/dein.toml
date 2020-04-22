@@ -35,3 +35,10 @@ repo = 'kristijanhusak/defx-icons'
 
 [[plugins]]
 repo = 'ryanoasis/vim-devicons'
+
+#vim-quickrun
+
+[[plugins]]
+repo = 'thinca/vim-quickrun'
+hook_add = 'source $XDG_CONFIG_HOME/nvim/plugins/script/quickrun.vim'
+
