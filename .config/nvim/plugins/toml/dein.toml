@@ -1,4 +1,4 @@
-# dein.vim---------------
+#dein.vim---------------
 
 [[plugins]]
 repo = 'Shougo/dein.vim'
@@ -15,11 +15,6 @@ hook_add = 'source $XDG_CONFIG_HOME/nvim/plugins/script/airline.vim'
 [[plugins]]
 repo = 'vim-airline/vim-airline-themes'
 
-#jedi-vim----------------
-
-[[plugins]]
-repo = 'davidhalter/jedi-vim'
-on_ft = 'python'
 
 #defx.nvim---------------
 
@@ -51,4 +46,4 @@ hook_add = 'source $XDG_CONFIG_HOME/nvim/plugins/script/quickrun.vim'
 
 [[plugins]]
 repo = 'Yggdroot/indentLine'
-hook_add = 'source $XDG_CONFIG_HOME/nvim/plugins/script/indentLin.vim'
+hook_add = 'source $XDG_CONFIG_HOME/nvim/plugins/script/indentLine.vim'
