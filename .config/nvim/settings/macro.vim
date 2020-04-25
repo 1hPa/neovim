@@ -4,7 +4,11 @@ augroup MyAutoCmd
 augroup END
 
 "入力モード中に素早くjjと入力した場合ESCとみなす
-inoremap jj <ESC>									
+inoremap jj <ESC>
+
+" 日本語入力で”っj”と入力してもEnterキーで確定させれば
+" インサートモードを抜ける
+inoremap <silent> っj <ESC>
 
 "ESCを2回押すことでハイライトを消す
 nmap <silent> <ESC><ESC> :nohlsearch<CR>
