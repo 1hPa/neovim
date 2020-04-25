@@ -1,0 +1,11 @@
+#vim-tex-----------------
+
+[[plugins]]
+repo = 'lervag/vimtex'
+on_ft = 'tex'
+
+#jedi-vim----------------
+
+[[plugins]]
+repo = 'davidhalter/jedi-vim'
+on_ft = 'python'
