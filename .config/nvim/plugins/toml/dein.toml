@@ -47,3 +47,8 @@ repo = 'ryanoasis/vim-devicons'
 repo = 'thinca/vim-quickrun'
 hook_add = 'source $XDG_CONFIG_HOME/nvim/plugins/script/quickrun.vim'
 
+#indentLine-----------------
+
+[[plugins]]
+repo = 'Yggdroot/indentLine'
+hook_add = 'source $XDG_CONFIG_HOME/nvim/plugins/script/indentLin.vim'
