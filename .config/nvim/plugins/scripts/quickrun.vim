@@ -1,10 +1,12 @@
 "tex-all compile
 
-let g:quickrun_config = {
-\   'tex': {
-\       'command': 'latexmk',
-\       'exec': ['%c -gg -pdfdvi %s', 'open %s:r.pdf']
-\   },
+let g:quickrun_config['tex'] = {
+\ 'command' : 'latexmk',
+\ 'outputter' : 'error',
+\ 'outputter/error/success' : 'null',
+\ 'outputter/error/error' : 'quickfix',
+\ 'srcfile' : expand("%s"),
+\ 'exec': '%c %s %a %o',
 \}
 
 "tex-partial compile
@@ -48,4 +50,4 @@ let g:quickrun_config.tmptex = {
 \}
 
 vnoremap <silent><buffer> <F5> :QuickRun -mode v -type tmptex<CR>
-autocmd BufWritePost *.tex :QuickRun -c tex
+autocmd BufWritePost *.tex :QuickRun tex
