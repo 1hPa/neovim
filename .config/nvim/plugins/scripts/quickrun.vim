@@ -1,13 +1,11 @@
 "tex-all compile
-
-let g:quickrun_config['tex'] = {
-\ 'command' : 'latexmk',
-\ 'outputter' : 'error',
-\ 'outputter/error/success' : 'null',
-\ 'outputter/error/error' : 'quickfix',
-\ 'srcfile' : expand("%s"),
-\ 'exec': '%c %s %a %o',
+let g:quickrun_config = {
+\   'tex': {
+\       'command': 'latexmk',
+\       'exec': ['%c -gg -pdfdvi %s', 'skim %s:r.pdf']
+\   },
 \}
+
 
 "tex-partial compile
 
