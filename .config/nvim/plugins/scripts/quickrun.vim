@@ -48,4 +48,4 @@ let g:quickrun_config.tmptex = {
 \}
 
 vnoremap <silent><buffer> <F5> :QuickRun -mode v -type tmptex<CR>
-autocmd BufWritePost *.tex :QuickRun tex
+autocmd BufWritePost *.tex :QuickRun -args -pvc tex
