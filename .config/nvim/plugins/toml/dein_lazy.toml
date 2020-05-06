@@ -10,3 +10,4 @@ hook_add = 'source $XDG_CONFIG_HOME/nvim/plugins/script/vimtex.vim'
 [[plugins]]
 repo = 'davidhalter/jedi-vim'
 on_ft = 'python'
+hook_add = 'source $XDG_CONFIG_HOME/nvim/plugins/script/python.vim'
