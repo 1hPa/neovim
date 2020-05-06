@@ -51,6 +51,15 @@ noremap <Space>h  ^
 noremap <Space>l  $
 nnoremap <Space>/  *
 
+"Defx_short-cat-key
+autocmd MyAutoCmd VimEnter * call s:foofoo()
+
+  function s:foofoo()
+    call defx#custom#option('_', {
+        \ 'columns': 'icons:filename',
+        \ })
+  endfunction
+
 " :e などでファイルを開く際にフォルダが存在しない場合は自動作成
 function! s:mkdir(dir, force)
   if !isdirectory(a:dir) && (a:force ||
