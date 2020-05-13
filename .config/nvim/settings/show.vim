@@ -4,6 +4,10 @@ set list
 "行番号を表示
 set number
 
+"行番号のハイライト
+set cursorline
+hi clear Cursorline
+
 "長いテキストを折り返す
 set wrap
 
