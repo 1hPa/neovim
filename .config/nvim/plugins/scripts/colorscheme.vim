@@ -1,3 +1,2 @@
-syntax enable
-set number
-colorscheme lucario
+syntax on
+colorsheme onedark
