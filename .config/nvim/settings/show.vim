@@ -8,6 +8,9 @@ set number
 set cursorline
 hi clear Cursorline
 
+"コメントの色
+hi Comment ctermfg=Cyan
+
 "長いテキストを折り返す
 set wrap
 
