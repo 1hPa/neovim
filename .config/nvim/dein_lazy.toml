@@ -3,7 +3,7 @@
 [[plugins]]
 repo = 'lervag/vimtex'
 on_ft = 'tex'
-hook_add = 'source $XDG_CONFIG_HOME/nvim/plugins/script/vimtex.vim'
+hook_add = 'source $XDG_CONFIG_HOME/nvim/fplugin/tex.vim'
 
 #jedi-vim----------------
 
