@@ -52,5 +52,5 @@ hook_add = 'source $XDG_CONFIG_HOME/nvim/plugin/indentLine.vim'
 #colorsheme--------------
 [[plugins]]
 repo = 'joshdick/onedark.vim'
-hook_add = 'source $XDG_CONFIG_HOME/nvim/colors/colorsheme.vim'
+hook_add = 'source $XDG_CONFIG_HOME/nvim/colors/colorscheme.vim'
 
