@@ -46,7 +46,7 @@ hook_add = 'source $XDG_CONFIG_HOME/nvim/plugins/script/quickrun.vim'
 
 [[plugins]]
 repo = 'Yggdroot/indentLine'
-hook_add = 'source $XDG_CONFIG_HOME/nvim/plugins/script/indentLine.vim'
+hook_add = 'source $XDG_CONFIG_HOME/nvim/plugin/indentLine.vim'
 
 
 #colorsheme--------------
