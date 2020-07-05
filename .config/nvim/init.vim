@@ -12,7 +12,7 @@ source $XDG_CONFIG_HOME/nvim/settings/search.vim
 source $XDG_CONFIG_HOME/nvim/settings/show.vim
 
 "plugins-------------------------------------------------------
-source $XDG_CONFIG_HOME/nvim/plugins/script/dein.vim
+source $XDG_CONFIG_HOME/nvim/plugin/dein.vim
 
 "others(binary)------------------------------------------------
 source $XDG_CONFIG_HOME/nvim/others/binary.vim
