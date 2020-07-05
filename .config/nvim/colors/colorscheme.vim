@@ -1,2 +1,2 @@
 syntax on
-colorsheme onedark
+colorscheme onedark
