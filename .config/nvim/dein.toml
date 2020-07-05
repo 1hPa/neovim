@@ -40,7 +40,7 @@ repo = 'ryanoasis/vim-devicons'
 
 [[plugins]]
 repo = 'thinca/vim-quickrun'
-hook_add = 'source $XDG_CONFIG_HOME/nvim/plugins/script/quickrun.vim'
+hook_add = 'source $XDG_CONFIG_HOME/nvim/plugin/quickrun.vim'
 
 #indentLine-----------------
 
