@@ -8,7 +8,7 @@ repo = 'Shougo/dein.vim'
 [[plugins]]
 repo = 'vim-airline/vim-airline'
 depends = ['vim-airline-themes']
-hook_add = 'source $XDG_CONFIG_HOME/nvim/plugins/script/airline.vim'
+hook_add = 'source $XDG_CONFIG_HOME/nvim/plugin/airline.vim'
 
 #airline-themes----------
 
