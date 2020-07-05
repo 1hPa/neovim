@@ -22,7 +22,7 @@ repo = 'vim-airline/vim-airline-themes'
 repo = 'Shougo/defx.nvim'
 on_cmd = 'Defx'
 depends = ['defx-icons', 'defx-git']
-hook_add = 'source $XDG_CONFIG_HOME/nvim/plugins/script/defx_key.vim'
+hook_add = 'source $XDG_CONFIG_HOME/nvim/plugin/defx_key.vim'
 
 
 #defx-icon.nvim
