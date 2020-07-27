@@ -54,3 +54,6 @@ hook_add = 'source $XDG_CONFIG_HOME/nvim/plugin/indentLine.vim'
 repo = 'joshdick/onedark.vim'
 hook_add = 'source $XDG_CONFIG_HOME/nvim/colors/colorscheme.vim'
 
+#markdown-preview----------
+[[plugins]]
+repo = 'plasticboy/vim-markdown'
