@@ -28,3 +28,9 @@ hook_sorce = '''
   hi link cppStructure Statement
   hi link cppType Statement
 '''
+
+#javascript--------------
+
+[[plugins]]
+repo = 'pangloss/vim-javascript'
+on_ft = ['js']
