@@ -1,2 +1,2 @@
-# Settings NeoVim
+# Neovim configuration
 > NeoVim configuration file
