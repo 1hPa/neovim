@@ -57,5 +57,49 @@ set matchpairs& matchpairs+=<:>
 "クリップボード有効
 set clipboard=unnamed
 
+"=== macro ===
+
+"release autogroup in MyAutoCmd
+augroup MyAutoCmd
+    autocmd!
+augroup END
+
+"jj→ESC
+inoremap jj <ESC>
+
+"ESCを2回押すことでハイライトを消す
+nmap <silent> <ESC><ESC> :nohlsearch<CR>
+
+"検索後にジャンプした際に検索単語を中央まで持ってくる
+nnoremap n nzz
+nnoremap N Nzz
+nnoremap * *zz
+nnoremap # #zz
+nnoremap g* g*zz
+nnoremap g# g#zz
+
+"vを2回で行末まで選択
+vnoremap v $h
+
+"Tabにて対応ペアにジャンプ
+noremap <Tab> %　
+
+"Control+hjklでウィンド間を移動
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
+
+" 入力モードでのカーソル移動
+inoremap <C-j> <Down>
+inoremap <C-k> <Up>
+inoremap <C-h> <Left>
+inoremap <C-l> <Right>
+
+"'^''$''*'の割当て
+noremap <Space>h  ^
+noremap <Space>l  $
+nnoremap <Space>/  *
+
 "----------------------dein----------------------
 source $XDG_CONFIG_HOME/nvim/dein.vim
