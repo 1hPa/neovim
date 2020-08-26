@@ -10,6 +10,9 @@ set incsearch
 "検索にマッチしたテキストをハイライト
 set hlsearch
 
+"スペルチェック
+set spell spelllang=en_us
+
 "バックスラッシュやクエスチョンを自動的にエスケープ
 cnoremap <expr> / getcmdtype() == '/' ? '\/' : '/'
 cnoremap <expr> ? getcmdtype() == '?' ? '\?' : '?'
