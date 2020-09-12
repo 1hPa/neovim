@@ -146,5 +146,8 @@ set textwidth=0
 "折り返しを見やすく
 set showbreak=↪
 
+"markdownの構文非表示を無効化
+let g:indentLine_fileTypeExclude = ['markdown']
+
 "----------------------dein----------------------
 source $XDG_CONFIG_HOME/nvim/dein.vim
