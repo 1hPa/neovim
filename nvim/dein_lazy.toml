@@ -35,6 +35,12 @@ hook_sorce = '''
 repo = 'pangloss/vim-javascript'
 on_ft = ['js']
 
+#Markdown Table ---------
+
+[[plugins]]
+repo = 'mattn/vim-maketable'
+on_ft = ['markdown']
+
 #flutter-----------------
 
 [[plugins]]
