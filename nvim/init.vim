@@ -116,7 +116,7 @@ set incsearch
 set hlsearch
 
 "スペルチェック
-set spell spelllang=en_us,cjk
+"set spell spelllang=en_us,cjk
 
 "バックスラッシュやクエスチョンを自動的にエスケープ
 cnoremap <expr> / getcmdtype() == '/' ? '\/' : '/'
