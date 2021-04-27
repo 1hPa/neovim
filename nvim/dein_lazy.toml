@@ -7,10 +7,10 @@ hook_add = 'source $XDG_CONFIG_HOME/nvim/ftplugin/tex.vim'
 
 #jedi-vim----------------
 
-[[plugins]]
-repo = 'davidhalter/jedi-vim'
-on_ft = 'python'
-hook_add = 'source $XDG_CONFIG_HOME/nvim/ftplugin/python.vim'
+#[[plugins]]
+#repo = 'davidhalter/jedi-vim'
+#on_ft = 'python'
+#hook_add = 'source $XDG_CONFIG_HOME/nvim/ftplugin/python.vim'
 
 #Go----------------------
 
