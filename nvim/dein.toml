@@ -18,29 +18,29 @@ repo = 'vim-airline/vim-airline-themes'
 
 #defx.nvim---------------
 
-[[plugins]]
-repo = 'Shougo/defx.nvim'
-on_cmd = 'Defx'
-depends = ['defx-icons', 'defx-git']
-hook_add = 'source $XDG_CONFIG_HOME/nvim/plugins/defx_key.vim'
+#[[plugins]]
+#repo = 'Shougo/defx.nvim'
+#on_cmd = 'Defx'
+#depends = ['defx-icons', 'defx-git']
+#hook_add = 'source $XDG_CONFIG_HOME/nvim/plugins/defx_key.vim'
 
 
 #defx-icon.nvim
 
-[[plugins]]
-repo = 'kristijanhusak/defx-icons'
+#[[plugins]]
+#repo = 'kristijanhusak/defx-icons'
 
 
 #ryanoasis/vim-devicons---
 
-[[plugins]]
-repo = 'ryanoasis/vim-devicons'
+#[[plugins]]
+#repo = 'ryanoasis/vim-devicons'
 
 #vim-quickrun
 
-[[plugins]]
-repo = 'thinca/vim-quickrun'
-hook_add = 'source $XDG_CONFIG_HOME/nvim/plugins/quickrun.vim'
+#[[plugins]]
+#repo = 'thinca/vim-quickrun'
+#hook_add = 'source $XDG_CONFIG_HOME/nvim/plugins/quickrun.vim'
 
 #indentLine-----------------
 
