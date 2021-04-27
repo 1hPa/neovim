@@ -65,18 +65,18 @@ augroup MyAutoCmd
 augroup END
 
 "jj→ESC
-inoremap jj <ESC>
+"inoremap jj <ESC>
 
 "ESCを2回押すことでハイライトを消す
 nmap <silent> <ESC><ESC> :nohlsearch<CR>
 
 "検索後にジャンプした際に検索単語を中央まで持ってくる
-nnoremap n nzz
-nnoremap N Nzz
-nnoremap * *zz
-nnoremap # #zz
-nnoremap g* g*zz
-nnoremap g# g#zz
+"nnoremap n nzz
+"nnoremap N Nzz
+"nnoremap * *zz
+"nnoremap # #zz
+"nnoremap g* g*zz
+"nnoremap g# g#zz
 
 "vを2回で行末まで選択
 vnoremap v $h
@@ -97,9 +97,9 @@ inoremap <C-h> <Left>
 inoremap <C-l> <Right>
 
 "'^''$''*'の割当て
-noremap <Space>h  ^
-noremap <Space>l  $
-nnoremap <Space>/  *
+"noremap <Space>h  ^
+"noremap <Space>l  $
+"nnoremap <Space>/  *
 
 "=== search ===
 
