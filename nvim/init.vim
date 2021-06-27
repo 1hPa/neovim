@@ -147,7 +147,7 @@ set textwidth=0
 set showbreak=↪
 
 "markdownの構文非表示を無効化
-let g:indentLine_fileTypeExclude = ['markdown']
+let g:indentLine_fileTypeExclude = ['markdown', 'tex']
 
 "----------------------dein----------------------
 source $XDG_CONFIG_HOME/nvim/dein.vim
