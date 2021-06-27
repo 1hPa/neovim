@@ -50,3 +50,8 @@ on_ft = ['dart']
 [[plugins]]
 repo = 'thosakwe/vim-flutter'
 on_ft = ['dart']
+
+#HTML--------------------
+[[plugins]]
+repo = 'mattn/emmet-vim'
+on_ft = ['html']
